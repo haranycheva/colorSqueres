@@ -9,3 +9,5 @@ export function ColorList ({selected, handleClick}){
         )}
     </List>);
   }
+
+// 12
