@@ -5,21 +5,21 @@ import { Component } from "react";
 
 export class App extends Component {
   state = {
-    selected: ""
+    selected: null
   }
   handleClick = (color, id) =>{
-    this.setState({selected: {color: color, id: id} })
+    this.setState({selected: {color, id} })
   }
   handleButtonClick = () => {
-    this.setState({selected: ""})
+    this.setState({selected: null})
   }
   render() {
     return (
       <Wrapper>
         <GlobalStyled />
-        <ColorList selected={this.state.selected} handleClick={this.handleClick}></ColorList>
+        <ColorList selected={this.state.selected} onClick={this.handleClick} />
         <div>
-        <ColorDiv color={this.state.selected.color}></ColorDiv>
+        <ColorDiv bgColor={this.state.selected.color} />
         <Button type="button" onClick={this.handleButtonClick}>Reset</Button>
         </div>
       </Wrapper>

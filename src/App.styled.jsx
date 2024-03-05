@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
-function getColor({ color }) {
-  if (!color) {
+function getColor({ bgColor }) {
+  if (!bgColor) {
     return "transparent";
   }
-  return color;
+  return bgColor;
 }
 
 export const ColorDiv = styled.div`
@@ -15,13 +15,11 @@ export const ColorDiv = styled.div`
 `;
 
 export const Wrapper = styled.div`
-margin-top: 50px;
-display: flex;
-gap: 100px;
+  margin-top: 50px;
+  display: flex;
+  gap: 100px;
 `;
 export const Button = styled.button`
-margin-top: 50px;
-padding: 10px 20px;
+  margin-top: 50px;
+  padding: 10px 20px;
 `;
-
-

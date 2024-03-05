@@ -1,16 +1,16 @@
 import { List, Item } from "./List.styled";
 import { colours } from "colors";
 
-export function ColorList({ selected, handleClick }) {
+export function ColorList({ selected, onClick }) {
   return (
     <List>
       {colours.map(({ color, id }) => (
         <Item
           key={id}
-          color={color}
+          bgColor={color}
           selected={selected.color === color}
-          onClick={() => handleClick(color, id)}
-        ></Item>
+          onClick={() => onClick(color, id)}
+        />
       ))}
     </List>
   );
