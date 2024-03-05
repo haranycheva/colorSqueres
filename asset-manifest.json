@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/colorSqueres/static/css/main.7cda0caf.css",
+    "main.js": "/colorSqueres/static/js/main.1829a5f7.js",
+    "index.html": "/colorSqueres/index.html",
+    "main.7cda0caf.css.map": "/colorSqueres/static/css/main.7cda0caf.css.map",
+    "main.1829a5f7.js.map": "/colorSqueres/static/js/main.1829a5f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cda0caf.css",
+    "static/js/main.1829a5f7.js"
+  ]
+}
