@@ -18,7 +18,7 @@ export const List = styled.ul`
 display: flex;
 flex-wrap: wrap;
 gap: 50px;
-width: 500px;
+width: 800px;
 margin-left: 100px;
 `;
 

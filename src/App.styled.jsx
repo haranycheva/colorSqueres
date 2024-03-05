@@ -15,6 +15,7 @@ export const ColorDiv = styled.div`
 `;
 
 export const Wrapper = styled.div`
+margin-top: 50px;
 display: flex;
 gap: 100px;
 `;
