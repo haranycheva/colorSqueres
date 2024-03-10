@@ -1,6 +1,6 @@
 import { GlobalStyled } from "GlobalStyle.style";
 import { Button, ColorDiv, Wrapper } from "App.styled";
-import { ColorList} from "components/List";
+import { ColorList} from "components/ColorList/ColorList";
 import { Component } from "react";
 
 export class App extends Component {

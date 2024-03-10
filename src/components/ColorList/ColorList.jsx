@@ -1,4 +1,4 @@
-import { List, Item } from "./List.styled";
+import { List, Item } from "./ColorList.styled";
 import { colours } from "colors";
 
 export function ColorList({ selected, onClick }) {
